@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout Design</title>
+</head>
+
+<body>
+
+<table border="1" width="100%" height="700" cellspacing="0" cellpadding="0">
+
+    <!-- Header Row -->
+    <tr height="120">
+
+        <!-- Logo -->
+        <td width="20%" align="center" >
+            <h2>&lt;Logo&gt;</h2>
+        </td>
+
+        <!-- Menu and Search -->
+        <td width="60%">
+            <table width="100%" height="100%" border="1" cellspacing="0">
+                <tr height="50">
+                    <td >
+                        <h2>&lt;Menu&gt;</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td >
+                        <table width="100%" border="0">
+                            <tr>
+                                <td width="80%">
+                                    <input type="text" style="width:100%;">
+                                </td>
+                                <td align="center">
+                                    <button><h2>Search</h2></button>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+
+        <!-- Profile Area -->
+        <td width="20%">
+            <table width="100%" border="0">
+                <tr>
+                    <td rowspan="2" width="40%" align="center">
+                        <table border="0" width="80" height="80">
+                            <tr><td style="border: 2px solid black;"></td></tr>
+                        </table>
+                    </td>
+
+                    <td align="center">
+                        <h3>
+                            Welcome<br>
+                            Mr. Carlson
+                        </h3>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="center">
+                        <table border="0">
+                            <tr>
+                                <td  width="30" height="25" style="border: 2px solid black;"></td>&nbsp;&nbsp;
+                                <td width="30" height="25" style="border: 2px solid black;"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+
+    </tr>
+
+    <!-- Content Area -->
+    <tr height="500">
+        <td width="25%"></td>
+        <td colspan="2"></td>
+    </tr>
+
+    <!-- Footer -->
+    <tr height="40" >
+        <td colspan="3" >
+            <table width ="100%">
+        <tr >
+            <td align="left"  >
+                <h2>@Zerone Consulting 2022</h2>
+            </td>
+
+            <td align="right">
+                <u> <b>Terms &amp; Conditions</b></u>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <u><b>Privacy Policy</b></u></td>
+        </tr>
+            </table>
+            </td>
+    </tr>
+
+    
+
+
+</table>
+
+</body>
+</html>
